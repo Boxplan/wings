@@ -1,0 +1,70 @@
+///
+/// Forty by HTML5 UP
+/// html5up.net | @ajlkn
+/// Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+///
+
+/* Header */
+
+
+	.rightPanel
+	 {
+		all: initial;
+
+		@include vendor('display', 'flex');
+		background-color: _palette(bg-alt);
+		cursor: default;
+		font: inherit;
+	//	z-index: _misc(z-index-base);
+
+		@include breakpoint(xlarge) {
+			width: 370px;
+			position: fixed;
+			right: 0;
+			height: 100vh;
+			top: 3.25em;
+		}
+
+		@include breakpoint(large) {
+			width: 370px;
+			position: fixed;
+			right: 0;
+			height: 100vh;
+			top: 3.25em;
+		}
+
+		@include breakpoint(medium) {
+			width: 370px;
+			height: 100vh;
+			position: fixed;
+			right: 0;
+			top: 3.25em;
+		}
+
+		@include breakpoint(small) {
+			width: 370px;
+			height: 100vh;
+			position: fixed;
+			right: 0;
+			top: 3.25em;
+		}
+
+		@include breakpoint(xsmall) {
+			width: 100%;
+			position: relative !important;
+		}
+
+		@include breakpoint(xxsmall) {
+			width: 100%;
+			position: relative !important;
+		}
+
+
+
+		.body.is-loading & {
+			&.alt {
+				opacity: 0;
+			}
+		}
+
+	}

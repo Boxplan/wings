@@ -1,0 +1,40 @@
+{
+  "name": "Shibravyi",
+  "description": "Shibravyi  - Wedding Venue",
+  "version": "1.0.0",
+  "author": "Venueplan",
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "0.0.19",
+    "gatsby": "^1.9.118",
+    "gatsby-image": "^1.0.27",
+    "gatsby-link": "^1.6.28",
+    "gatsby-plugin-google-analytics": "^1.0.12",
+    "gatsby-plugin-react-helmet": "^1.0.8",
+    "gatsby-plugin-sass": "^1.0.14",
+    "gatsby-source-filesystem": "^1.5.8",
+    "lodash": "^4.17.4",
+    "node-sass": "^4.9.0",
+    "react-load-script": "0.0.6",
+    "unist-util-select": "^1.5.0"
+  },
+  "homepage": "https://shibravyicourtyard.com",
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "main": "n/a",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChangoMan/gatsby-starter-forty.git"
+  },
+  "scripts": {
+    "dev": "gatsby develop",
+    "lint": "./node_modules/.bin/eslint --ext .js,.jsx --ignore-pattern public .",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "develop": "gatsby develop",
+    "build": "gatsby build",
+    "fix-semi": "eslint --quiet --ignore-pattern node_modules --ignore-pattern public --parser babel-eslint --no-eslintrc --rule '{\"semi\": [2, \"never\"], \"no-extra-semi\": [2]}' --fix gatsby-node.js"
+  }
+}
