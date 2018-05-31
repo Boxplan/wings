@@ -7,17 +7,17 @@ import pic11 from '../assets/images/pic11.jpg'
 const Generic = (props) => (
     <div>
         <Helmet>
-            <title>Shibravyi Courtyard</title>
-            <meta name="Shibravyi Courtyard" content="Shibravyi Courtyard" />
+            <title>Wings Banquet Hall</title>
+            <meta name="Wings Banquet Hall" content="Wings Banquet Hall" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                        <h1>Shibravyi Courtyard</h1>
+                        <h1>Wings Banquet Hall</h1>
                     </header>
-                    <p>Shibravyi is a courtyard home, with sprawling gardens, terracotta tiled pavilions and more. A perfect setting for outdoor &amp; indoor events.  Shibravyi hosts a number of social functions such as weddings, birthdays, naming ceremonies and other social events. Shibravyi has a hall capacity of 800 and more than 1000 floating guests and Dinning Capacity 250 guests at once. The ambience of the location pleases everyone with its lush green environment.  The pleasant surrounding is best suited for all marriages and other family occasions.  Shibravyi  is best suitable for your wedding.</p>
+                    <p>Wings, One that will be remembered forever. With over 30 years of experience in events we have the 'know-how' to produce a great event for whatever you are celebrating. With such a diverse background we are confident that we are the perfect choice to plan, create and execute your next event.</p>
 
                 </div>
             </section>

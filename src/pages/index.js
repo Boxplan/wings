@@ -30,15 +30,15 @@ class HomeIndex extends React.Component {
         {
             "@context": "http://schema.org",
             "@type": "LocalBusiness",
-            "@id": "http://www.shibravyicourtyard.com",
-            "name": "Shibravyi Courtyard Wedding Venue",
-            "image": ["http://http://www.shibravyicourtyard.com/static/pic22.3739db65.jpg,http://www.shibravyicourtyard.com/static/pic31.bf1f841b.jpg,http://www.shibravyicourtyard.com/static/pic27.aace32c0.jpg,http://www.shibravyicourtyard.com/static/pic21.badd0ad4.jpg"],
+            "@id": "http://www.wingsbanquethall.com",
+            "name": "Wings Banquet Hall",
+            "image": ["http://www.shibravyicourtyard.com/static/pic22.3739db65.jpg,http://www.shibravyicourtyard.com/static/pic31.bf1f841b.jpg,http://www.shibravyicourtyard.com/static/pic27.aace32c0.jpg,http://www.shibravyicourtyard.com/static/pic21.badd0ad4.jpg"],
             "address": {
             "@type": "PostalAddress",
-                "streetAddress": " No. 107, BM Kaval, Kengeri Hobli, Thalagahttapura Post, Kanakpura Road, Kengeri, Bangalore",
-                "addressLocality": "Kanakapura Road",
+                "streetAddress": "Wings House, No. 236, 5th Main, 2nd Block, HRBR Layout, Bangalore - 560043",
+                "addressLocality": "Kammanahalli,HRBR Layout",
                 "addressRegion": "Bangalore",
-                "postalCode": "560062",
+                "postalCode": "560043",
                 "addressCountry": "India"
         },
             "aggregateRating": {
@@ -47,20 +47,20 @@ class HomeIndex extends React.Component {
                 "bestRating": "5",
                 "reviewCount": " 48 "
         },
-            "priceRange": "Rs.125000 - Rs.305000",
+            "priceRange": "Rs.18000 - Rs.65000",
             "geo": {
             "@type": "GeoCoordinates",
-                "latitude": 12.867007,
-                "longitude": 77.517734
+                "latitude": 13.020812,
+                "longitude": 77.636105
         },
-            "url": "http://www.shibravyicourtyard.com",
-            "telephone": " +918030695111",
+            "url": "http://www.wingsbanquethall.com",
+            "telephone": " +918039345194",
 
             "potentialAction": {
             "@type": "ReserveAction",
                 "target": {
                 "@type": "EntryPoint",
-                    "urlTemplate": "http://www.shibravyicourtyard.com",
+                    "urlTemplate": "http://www.wingsbanquethall.com",
                     "inLanguage": "en-US",
                     "actionPlatform": "http://schema.org/DesktopWebPlatform"
 
@@ -77,8 +77,8 @@ class HomeIndex extends React.Component {
         return (
             <div>
                 <Helmet>
-                    <title>Shibravyi Courtyard Wedding Venue</title>
-                    <meta name="description" content='Traditional Outdoor Wedding Venue, Lawn and Banquet Hall off Kanakapura Road, South Bangalore ' />
+                    <title>Wings Banquet Hall</title>
+                    <meta name="description" content='Wings banquet and party hall in Kammanahalli HRBR Bangalore ' />
                     <script type="application/ld+json">
                         {JSON.stringify(schemaOrgJsonLd)}
                     </script>
@@ -86,40 +86,38 @@ class HomeIndex extends React.Component {
 
                 <div id="main" >
                     <section className="tiles">
-                        <article>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-pic--27.jpg`}}>
                             <header className="major">
-                                <h3>Shibravyi Courtyard Wedding Venue</h3>
-                                <p>Shibravyi, A courtyard home, with sprawling gardens, terracotta tiled pavilions and more. A perfect setting for outdoor and indoor events.</p>
-
+                                <h3>Wings Banquet Hall</h3>
+                                <p>One that will be remembered forever.</p>
                             </header>
                             <Link to="/venues" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-12.jpg)`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-view-from-stage.jpg)`}}>
                             <header className="major">
                                 <h3>Packages</h3>
-                                <p>4 | 8 | 24 Hour Rental Package Available</p>
-
+                                <p>4 | 6 | 12 Hour Rental Package Available</p>
                             </header>
                             <Link to="/packages" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-11.jpg)`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-right-view-from-stage.jpg`}}>
                             <header className="major">
                                 <h3>Capacity Info</h3>
-                                <p>Shibravyi has 2 halls which can accommodate from 100 to 1500 Guests</p>
+                                <p>WIngs has 2 halls which can accommodate from 50 to 350 Guests</p>
                             </header>
                             <Link to="/capacity" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-13.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0044.jpg`}}>
                             <header className="major">
                                 <h3>Gallery</h3>
                                 <p>Images, Virtual Tour</p>
                             </header>
                             <Link to="/images" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Banquet-Hall-at-Shibravyi-Courtyard-unspecified-15.jpeg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0003.jpg`}}>
                             <header className="major">
                                 <h3>Recent Events</h3>
                                 <p>Weddings, Family Events, Parties</p>
@@ -127,9 +125,10 @@ class HomeIndex extends React.Component {
                             <Link to="/recent-events" className="link primary"></Link>
                         </article>
 
-                        <article>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-5965ffc9b25f48148770306c_bald-eagle-2030735_1280.jpg`}}>
+
                             <header className="major">
-                                <h3>+91 80 30695111</h3>
+                                <h3>+91 80 39345194</h3>
                                 <p>Address | Location</p>
                             </header>
                             <Link to="/contact-us" className="link primary"></Link>

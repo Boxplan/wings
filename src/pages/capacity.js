@@ -7,18 +7,18 @@ import pic11 from '../assets/images/pic11.jpg'
 const Generic = (props) => (
     <div>
         <Helmet>
-            <title>Shibravyi Courtyard Capacity</title>
-            <meta name="description" content="Shibravyi Courtyard Capacity" />
+            <title>Wings Banquet Hall</title>
+            <meta name="Wings Banquet Hall" content="Wings Banquet Hall" />
         </Helmet>
 
         <div id="main" className="alt">
             <section id="one">
                 <div className="inner">
                     <header className="major">
-                    <h1>Capacity</h1>
+                    <h1>Seating Capacity</h1>
                     </header>
-                    <p>Courtyard Pavilion 100px - 300px</p>
-                    <p>Courtyard Pavilion and Marquee Lawn 100px - 1500px</p>
+                    <p>Shalom Banquet Hall 50px - 350px</p>
+                    <p>Terrace Banquet Hall 50px - 125px</p>
 
 
                 </div>
