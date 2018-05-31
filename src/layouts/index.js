@@ -200,11 +200,11 @@ class Template extends React.Component {
                 <Menu onToggleMenu={this.handleToggleMenu} />
                 <div
                     data-start="What Event are you planning ?"
-                    data-greet="Shibravyi Courtyard"
+                    data-greet="Wings Banquet Hall"
                     data-float="1"
                     data-vendorMail=""
                     data-light="#EEF2F5"
-                    data-primary="#F3306B"
+                    data-primary="#39332f"
                     data-topic="gatsbytopical"
                     data-ich="1"
                     data-widget="Get Quote"
@@ -215,10 +215,10 @@ class Template extends React.Component {
                     data-fl="bq"
                     data-city="bangalore"
                     data-hotd="10035073"
-                    data-avtar="https://s3.ap-south-1.amazonaws.com/chainsite/shibravyi/shibravyi-small.png"
-                    data-img="https://www.holidaysat.com/gallery/The-Leela-Palace-Chennai-03.jpg"
+                    data-avtar="https://s3.ap-south-1.amazonaws.com/chainsite/wings/wings-small.png"
+                    data-img="https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-view-from-stage.jpg"
                     data-cityd="6053307"
-                    data-bt="87"
+                    data-bt="95"
                     id="bot">
                 </div>
                 <script type="text/javascript" src="https://d135nng9hpqknm.cloudfront.net/start.js"></script>
