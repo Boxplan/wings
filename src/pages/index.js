@@ -86,7 +86,7 @@ class HomeIndex extends React.Component {
 
                 <div id="main" >
                     <section className="tiles">
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-pic--27.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-pic--27.jpg)`}}>
                             <header className="major">
                                 <h3>Wings Banquet Hall</h3>
                                 <p>One that will be remembered forever.</p>
@@ -102,7 +102,7 @@ class HomeIndex extends React.Component {
                             <Link to="/packages" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-right-view-from-stage.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-right-view-from-stage.jpg)`}}>
                             <header className="major">
                                 <h3>Capacity Info</h3>
                                 <p>WIngs has 2 halls which can accommodate from 50 to 350 Guests</p>
@@ -110,14 +110,14 @@ class HomeIndex extends React.Component {
                             <Link to="/capacity" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0044.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0044.jpg)`}}>
                             <header className="major">
                                 <h3>Gallery</h3>
                                 <p>Images, Virtual Tour</p>
                             </header>
                             <Link to="/images" className="link primary"></Link>
                         </article>
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0003.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Wings-Shalom-Banquet-IMG-20160504-WA0003.jpg)`}}>
                             <header className="major">
                                 <h3>Recent Events</h3>
                                 <p>Weddings, Family Events, Parties</p>
@@ -125,7 +125,7 @@ class HomeIndex extends React.Component {
                             <Link to="/recent-events" className="link primary"></Link>
                         </article>
 
-                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-5965ffc9b25f48148770306c_bald-eagle-2030735_1280.jpg`}}>
+                        <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-5965ffc9b25f48148770306c_bald-eagle-2030735_1280.jpg)`}}>
 
                             <header className="major">
                                 <h3>+91 80 39345194</h3>
