@@ -201,7 +201,7 @@ class Template extends React.Component {
                 <div
                     data-start="What Event are you planning ?"
                     data-greet="Wings Banquet Hall"
-                    data-float="1"
+                    data-float=""
                     data-vendorMail=""
                     data-light="#EEF2F5"
                     data-primary="#39332f"
