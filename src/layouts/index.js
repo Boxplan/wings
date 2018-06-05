@@ -19,8 +19,6 @@ class Template extends React.Component {
         this.state = {
             isMenuVisible: false,
             loading    : 'is-loading',
-            loadScripttwo : '',
-            loadScriptthree : '',
             loadScript : '',                 // used to mount the sctipholder component
             scriptAlreadyLoaded: '',         // to determine if script is already there
             teaserText : 'I am Online',
@@ -53,7 +51,8 @@ class Template extends React.Component {
 
     onLoadIndicate(){
 
-        this.setState({loadingActive:false, loadScripttwo:true});
+        //this.setState({loadingActive:false, loadScripttwo:true});
+        this.setState({loadingActive:false});
         console.log('loading now')
 
     }
@@ -183,7 +182,7 @@ class Template extends React.Component {
 
     render() {
         const { children } = this.props;
-        const { loadScript, loadScripttwo, loadScriptthree, teaserText, botShowingNow, loadingActive } = this.state;
+        const { loadScript, teaserText, botShowingNow, loadingActive } = this.state;
 
 
         return (
@@ -201,7 +200,7 @@ class Template extends React.Component {
                 <div
                     data-start="What Event are you planning ?"
                     data-greet="Wings Banquet Hall"
-                    data-float=""
+                    data-float="1"
                     data-vendorMail=""
                     data-light="#EEF2F5"
                     data-primary="#39332f"
@@ -221,7 +220,6 @@ class Template extends React.Component {
                     data-bt="95"
                     id="bot">
                 </div>
-                <script type="text/javascript" src="https://d135nng9hpqknm.cloudfront.net/start.js"></script>
 
                 <div
                     onClick={()=>this.setState({botShow:!this.state.botShow})}
@@ -253,18 +251,11 @@ class Template extends React.Component {
                     <div id="circle"   onClick={()=>this.setState({botShow:!this.state.botShow})}></div>
                 </div>
                 {loadScript && <Script
-                    url="https://d11vt4zh4oro3q.cloudfront.net/master.js"
+                    url="https://d135nng9hpqknm.cloudfront.net/start.js"
                     onCreate={this.onCreateIndicate}
                     onError={()=> console.log('script error')}
                     onLoad={this.onLoadIndicate}
                 />}
-                {loadScripttwo && <Script
-                    url="https://d11vt4zh4oro3q.cloudfront.net/start.js"
-                    onCreate={this.onCreateIndicate}
-                    onError={()=> console.log('script error')}
-                    onLoad={()=> this.setState({loadScriptthree:true})}
-                />}
-
             </div>
         )
     }
