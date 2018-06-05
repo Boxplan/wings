@@ -203,7 +203,7 @@ class Template extends React.Component {
                     data-float="1"
                     data-vendorMail=""
                     data-light="#EEF2F5"
-                    data-primary="#39332f"
+                    data-primary="#F3306B"
                     data-topic="gatsbytopical"
                     data-ich="1"
                     data-widget="Get Quote"
