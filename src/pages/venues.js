@@ -8,7 +8,7 @@ const Generic = (props) => (
     <div>
         <Helmet>
             <title>Wings Banquet Hall</title>
-            <meta name="Wings Banquet Hall" content="Wings Banquet Hall" />
+            <meta name="description" content="Wings, One that will be remembered forever. With over 30 years of experience in events we have the 'know-how' to produce a great event for whatever you are celebrating. With such a diverse background we are confident that we are the perfect choice to plan, create and execute your next event." />
         </Helmet>
 
         <div id="main" className="alt">
