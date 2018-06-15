@@ -8,7 +8,7 @@ const Generic = (props) => (
     <div>
         <Helmet>
             <title>Wings Banquet Hall</title>
-            <meta name="description" content="Shalom Banquet Hall 50px - 350px" />
+            <meta name="description" content="Wings Shalom Banquet Hall 50px - 350px" />
         </Helmet>
 
         <div id="main" className="alt">
@@ -17,8 +17,12 @@ const Generic = (props) => (
                     <header className="major">
                     <h1>Seating Capacity</h1>
                     </header>
-                    <p>Shalom Banquet Hall 50px - 350px</p>
-                    <p>Terrace Banquet Hall 50px - 125px</p>
+                    <h3>Shalom Banquet Hall</h3>
+                    <p>Theater Style - 350px</p>
+                    <p>Floating - 400px</p>
+                    <h3>Terrace Banquet Hall</h3>
+                    <p>Theater Style - 75px</p>
+                    <p>Floating - 125px</p>
 
 
                 </div>
