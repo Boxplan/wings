@@ -207,17 +207,18 @@ class Template extends React.Component {
                     data-topic="gatsbytopical"
                     data-ich="1"
                     data-widget="Get Quote"
-                    data-altone="svb"
+                    data-altone="corner"
                     data-alttwo="Get Quote"
-                    data-justgyan=""
+                    data-justgyan="Looking for a Wedding Venue - Venue for Smaller Parties"
                     data-jumbo="Instant Response"
-                    data-fl="bq"
+                    data-fl="yb"
                     data-city="bangalore"
                     data-hotd="10014838"
                     data-avtar="https://s3.ap-south-1.amazonaws.com/chainsite/wings/wings-small.png"
                     data-img="https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-view-from-stage.jpg"
                     data-cityd="6053307"
                     data-bt="95"
+                    data-wanumber="919591987081"
                     id="bot">
                 </div>
 

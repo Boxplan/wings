@@ -17,8 +17,8 @@ const Generic = (props) => (
                     <header className="major">
                     <h1>Packages</h1>
                     </header>
-                    <p>Rs. 18000 | 6 Hour rental for Terrace Banquet Hall | Venue is extended for 6 hrs on an exclusive basis</p>
-                    <p>Rs. 65000 | 12 hour rental for Shalom Banquet Hall | Venue is extended on an exclusive basis for 12 hours</p>
+                    <p>Rs. 20000 | 6 Hour rental for Terrace Banquet Hall | Venue is extended for 6 hrs on an exclusive basis</p>
+                    <p>Rs. 70000 | 12 hour rental for Shalom Banquet Hall | Venue is extended on an exclusive basis for 12 hours</p>
 
 
                 </div>
