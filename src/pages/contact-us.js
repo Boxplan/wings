@@ -18,7 +18,7 @@ const Generic = (props) => (
                         <h1>Contact Us</h1>
                     </header>
                     <p>Wings House, No. 236, 5th Main, 2nd Block, HRBR Layout, Bangalore - 560043</p>
-                    <p>+91 80 39345194</p>
+                    <p>+91 80 39514951 Ext: 924</p>
 
                     </div>
             </section>

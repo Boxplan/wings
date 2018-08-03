@@ -128,7 +128,7 @@ class HomeIndex extends React.Component {
                         <article style={{backgroundImage:`url(https://s3-ap-southeast-1.amazonaws.com/vsimg1/propimages/Shalom-Banquet-Hall-at-Wings-5965ffc9b25f48148770306c_bald-eagle-2030735_1280.jpg)`}}>
 
                             <header className="major">
-                                <h3>+91 80 39345194</h3>
+                                <h3>+91 80 39514951 Ext: 924</h3>
                                 <p>Address | Location</p>
                             </header>
                             <Link to="/contact-us" className="link primary"></Link>
